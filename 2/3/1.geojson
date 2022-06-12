@@ -1,0 +1,597 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "timestamp": "2022-03-19T11:30:31.299Z",
+        "username": "",
+        "result": "",
+        "bridge_name": "中町橋"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "139.495331",
+          "35.352028"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "timestamp": "2022-03-19T11:31:29.006Z",
+        "username": "テストつーや",
+        "result": "✕",
+        "bridge_name": "中町橋"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "139.495331",
+          "35.352028"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "timestamp": "2022-03-20T10:03:03.158Z",
+        "username": "",
+        "result": "〇",
+        "bridge_name": "那の津大橋30001"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "130.399167",
+          "33.599444"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "timestamp": "2022-03-20T10:42:13.194Z",
+        "username": "テストスリー、タイマー",
+        "result": "〇",
+        "bridge_name": "中町橋"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "139.495331",
+          "35.352028"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "timestamp": "2022-03-20T13:22:35.672Z",
+        "username": "",
+        "result": "〇",
+        "bridge_name": "無名橋10404"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "130.453056",
+          "33.667778"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "timestamp": "2022-03-21T09:34:20.068Z",
+        "username": "",
+        "result": "〇",
+        "bridge_name": "東光橋20091"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "130.423889",
+          "33.593056"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "timestamp": "2022-03-22T12:57:54.102Z",
+        "username": "T",
+        "result": "〇",
+        "bridge_name": "比恵新橋20103"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "130.426389",
+          "33.590833"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "timestamp": "2022-03-23T12:13:37.760Z",
+        "username": "t",
+        "result": "✕",
+        "bridge_name": "乙見橋"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "131.740833",
+          "33.061944"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "timestamp": "2022-03-23T12:19:50.542Z",
+        "username": "aaaa",
+        "result": "〇",
+        "bridge_name": "豆津橋"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "130.487936",
+          "33.3148"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "timestamp": "2022-04-04T13:18:02.674Z",
+        "username": "T",
+        "result": "〇",
+        "bridge_name": "名島橋"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "130.427778",
+          "33.640278"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "timestamp": "2022-04-04T13:18:16.217Z",
+        "username": "T",
+        "result": "✕",
+        "bridge_name": "真州崎大橋（下り）"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "130.440556",
+          "33.632778"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "timestamp": "2022-04-04T13:18:29.488Z",
+        "username": "T",
+        "result": "〇",
+        "bridge_name": "多田羅橋10208"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "130.446944",
+          "33.629444"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "timestamp": "2022-04-05T13:39:09.813Z",
+        "username": "テストにしたに4月5日",
+        "result": "✕",
+        "bridge_name": "溝橋73.250"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "130.440439",
+          "33.631058"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "timestamp": "2022-04-06T12:57:23.694Z",
+        "username": "あ",
+        "result": "〇",
+        "bridge_name": "塩屋橋60002"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "130.369722",
+          "33.580833"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "timestamp": "2022-04-12T13:21:01.851Z",
+        "username": "",
+        "result": "✕",
+        "bridge_name": "仁淀川橋"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "133.416389",
+          "33.549722"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "timestamp": "2022-04-26T13:25:40.556Z",
+        "username": "",
+        "result": "✕",
+        "bridge_name": "下田橋１"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "133.6144",
+          "33.544908"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "timestamp": "2022-04-26T13:33:12.410Z",
+        "username": "kazoesan",
+        "result": "〇",
+        "bridge_name": "安芸大橋歩道橋"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "132.483772",
+          "34.438867"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "timestamp": "2022-04-26T13:35:56.969Z",
+        "username": "たか",
+        "result": "✕",
+        "bridge_name": "仁和寺高架橋（OFFランプ）"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "135.5975",
+          "34.7725"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "timestamp": "2022-04-26T13:36:06.523Z",
+        "username": "kazoesan",
+        "result": "✕",
+        "bridge_name": "新庄橋"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "132.454722",
+          "34.425278"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "timestamp": "2022-04-26T13:36:20.028Z",
+        "username": "たか",
+        "result": "✕",
+        "bridge_name": "仁和寺高架橋（ONランプ）"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "135.596667",
+          "34.771667"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "timestamp": "2022-04-26T13:36:39.890Z",
+        "username": "issy",
+        "result": "✕",
+        "bridge_name": "境橋"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "139.418333",
+          "35.562222"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "timestamp": "2022-04-26T13:38:21.137Z",
+        "username": "issy",
+        "result": "✕",
+        "bridge_name": "境川橋本橋(２－１)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "139.423611",
+          "35.558056"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "timestamp": "2022-04-26T13:38:53.393Z",
+        "username": "たか",
+        "result": "✕",
+        "bridge_name": "伝法大橋"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "135.449722",
+          "34.689722"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "timestamp": "2022-04-26T13:39:07.115Z",
+        "username": "issy",
+        "result": "✕",
+        "bridge_name": "島橋"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "139.434444",
+          "35.547778"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "timestamp": "2022-04-26T13:39:33.361Z",
+        "username": "KAMOTANI",
+        "result": "✕",
+        "bridge_name": "紅取橋"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "130.716111",
+          "32.222222"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "timestamp": "2022-04-26T13:40:43.789Z",
+        "username": "たか",
+        "result": "✕",
+        "bridge_name": "絹延橋"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "135.424144",
+          "34.833892"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "timestamp": "2022-04-26T13:40:58.980Z",
+        "username": "issy",
+        "result": "✕",
+        "bridge_name": "鹿島橋"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "139.465833",
+          "35.541667"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "timestamp": "2022-04-26T13:41:32.224Z",
+        "username": "issy",
+        "result": "✕",
+        "bridge_name": "旧高瀬橋"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "139.463333",
+          "35.544167"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "timestamp": "2022-04-26T13:41:52.092Z",
+        "username": "issy",
+        "result": "✕",
+        "bridge_name": "三蔵寺橋"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "139.463333",
+          "35.546667"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "timestamp": "2022-04-26T13:42:28.059Z",
+        "username": "issy",
+        "result": "✕",
+        "bridge_name": "坂下橋"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "139.463056",
+          "35.550833"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "timestamp": "2022-04-26T13:42:52.498Z",
+        "username": "issy",
+        "result": "✕",
+        "bridge_name": "石洗橋"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "139.461111",
+          "35.552778"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "timestamp": "2022-04-26T13:43:12.265Z",
+        "username": "KAMOTANI",
+        "result": "✕",
+        "bridge_name": "川辺大橋"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "130.815",
+          "32.256111"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "timestamp": "2022-04-26T13:44:05.575Z",
+        "username": "kazoesan",
+        "result": "✕",
+        "bridge_name": "新神谷橋"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "139.736510917302",
+          "35.7709947506479"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "timestamp": "2022-05-30T05:45:27.314Z",
+        "username": "まさと",
+        "result": "✕",
+        "bridge_name": "大辻橋"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "133.4275",
+          "33.4875"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "timestamp": "2022-05-30T05:48:36.436Z",
+        "username": "まさと",
+        "result": "✕",
+        "bridge_name": "高見橋"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "133.406111",
+          "33.482222"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "timestamp": "2022-05-31T13:38:53.854Z",
+        "username": "test",
+        "result": "〇",
+        "bridge_name": "繁昌橋"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "130.018244",
+          "33.229336"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "timestamp": "2022-05-31T13:43:16.641Z",
+        "username": "てすと",
+        "result": "✕",
+        "bridge_name": "久池井橋"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          null,
+          "あいうえお"
+        ]
+      }
+    }
+  ]
+}

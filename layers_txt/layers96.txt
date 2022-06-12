@@ -62,7 +62,7 @@
                   "title": "結果",
                   "iconUrl": "",
                   "styleurl": "https://qchizu.github.io/X-Bridge/style_test_bridge_kekka.js",
-                  "url": "https://www.rulewatcher.com/rw/xbridge/{z}/{x}/{y}.geojson",
+                  "url": "https://qchizu.github.io/X-Bridge/{z}/{x}/{y}.geojson",
                   "subdomains": "",
                   "attribution": "",
                   "errorTileUrl": "",
@@ -71,7 +71,7 @@
                   "maxZoom": 19,
                   "maxNativeZoom": 2,
                   "legendUrl": "",
-                  "html": ""
+                  "html": "★★これをurl欄に貼り付ける　https://www.rulewatcher.com/rw/xbridge/{z}/{x}/{y}.geojson"
                 }
               ]
             },
