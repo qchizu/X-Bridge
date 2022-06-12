@@ -6,7 +6,6 @@
       "iconUrl": "https://maps.qchizu.xyz/image/layers_txt/folder-gaibu.png",
       "toggleall": false,
       "id": "",
-      "html":"ここに説明書きが入ります",
       "entries": [
         {
           "type": "LayerGroup",
@@ -14,6 +13,7 @@
           "iconUrl": "https://maps.qchizu.xyz/image/layers_txt/folder-gaibu.png",
           "toggleall": false,
           "id": "",
+          "html":"ここに説明書きが入ります",
           "entries": [
             {
               "type": "LayerGroup",
@@ -89,7 +89,7 @@
                   "title": "全国橋梁マップ（名称）",
                   "iconUrl": "",
                   "styleurl": "https://qchizu.github.io/X-Bridge/style_test_bridge_hokoku.js",
-                  "url": "https://www.rulewatcher.com/rw/xbridge/{z}/{x}/{y}.geojson",
+                  "url": "https://mapdata.qchizu.xyz/vector/mlit_road2019/bridge2/{z}/{x}/{y}.geojson",
                   "subdomains": "",
                   "attribution": "",
                   "errorTileUrl": "",
