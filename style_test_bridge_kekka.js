@@ -6,10 +6,10 @@
       var kigo = this.dealer;
       switch (true) {
         case (feature.properties["result"] == "✕"):
-          kigo = "https://qchizu.github.io/test_bridge/batsu-01.png";
+          kigo = "https://qchizu.github.io/X-Bridge/batsu-01.png";
           break;
         case (feature.properties["result"] == "〇" ):
-          kigo = "https://qchizu.github.io/test_bridge/maru-01.png";
+          kigo = "https://qchizu.github.io/X-Bridge/maru-01.png";
           break;
       default:
         kigo = "https://mapdata.qchizu.xyz/icon/mura.png" ;
