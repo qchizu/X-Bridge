@@ -1,3 +1,14 @@
+# X-Bridge
+
+## 概要
+本レポジトリは、X-Bridge関係者用テストページです。
+
+## URL
+- 全国Q地図（X-Bridgeテストサイト） https://qchizu.github.io/X-Bridge
+
+
+
+
 # qchizu (全国Q地図)
 
 ## 概要
