@@ -1,0 +1,26 @@
+[
+	{
+		"url":"./layers99.txt"
+	},
+	{
+		"url":"./layers1.txt"
+	},
+	{
+		"url":"https://maps.gsi.go.jp/layers_txt/layers2.txt"
+	},
+	{
+		"url":"https://maps.gsi.go.jp/layers_txt/layers3.txt"
+	},
+	{
+		"url":"https://maps.gsi.go.jp/layers_txt/layers4.txt"
+	},
+	{
+		"url":"https://maps.gsi.go.jp/layers_txt/layers5.txt"
+	},
+	{
+		"url":"https://maps.gsi.go.jp/layers_txt/layers6.txt"
+	},
+	{
+		"url":"https://maps.gsi.go.jp/layers_txt/layers7.txt"
+	}
+]

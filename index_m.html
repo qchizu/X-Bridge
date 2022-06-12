@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<head>
+    <!--★変更-->
+    <meta name="robots" content="noindex"> 
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@Yama_Chizu" />
+    <meta property="og:url" content="https://maps.qchizu.xyz" />
+    <meta property="og:title" content="全国Ｑ地図" />
+    <meta property="og:description" content="地理院地図を拡張した、各種地形図・地図情報の統合閲覧サイト" />
+    <meta property="og:image" content="https://maps.qchizu.xyz/twittercardimg.jpg" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=0.75, ,user-scalable=no" /><!--★変更-->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="description" content="地理院地図を拡張した、各種地形図・地図情報の統合閲覧サイト">
+
+  <!-- PWA android-->
+  <link rel="manifest" href="manifest.json">
+  <!-- PWA ios-->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="全国Ｑ地図"> <!--★変更-->
+  <link rel="apple-touch-icon" href="image/logo-192.png">
+  <!-- PWA serviceWorker register-->
+  <script>
+  if ('serviceWorker' in navigator) {navigator.serviceWorker.register('serviceworker.js').then(function(registration) {});}
+  </script>
+
+  <title>全国Ｑ地図｜各種地形図・地図情報の統合閲覧サイト</title><!--★変更-->
+
+  <link rel="stylesheet" href="js.lib/leaflet-1.2.0/leaflet.css" />
+  <script type="text/javascript" src="js.lib/leaflet-1.2.0/leaflet.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="./js.lib/jquery/jquery-ui.min.css" />
+  <script type="text/javascript" src="./js.lib/jquery/jquery-1.11.1.min.js"></script>
+
+  <!-- <script type="text/javascript" src="./js.lib/jquery/ZeroClipboard2.0.2/ZeroClipboard.js"></script> -->
+  <script type="text/javascript" src="./js.lib/jquery/jquery.xdomainrequest.min.js"></script>
+  <script type="text/javascript" src="./js.lib/jquery/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="./js.lib/jquery/jquery.ui.touch-punch.js"></script>
+  <script type="text/javascript" src="./js.lib/jquery/jquery.qrcode/jquery.qrcode.min.js"></script>
+  <script type="text/javascript" src="./js.lib/jquery/jquery.csv/jquery.csv.min.js"></script>
+
+  <script type="text/javascript" src="./js.lib/jquery/jquery.cookie.js"></script>
+  <link rel="stylesheet" href="./js.lib/jquery/jquery.alerts.css" type="text/css" media="all" />
+  <script type="text/javascript" src="./js.lib/jquery/jquery.alerts.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="./js.lib/jquery/colorpicker/jquery.simple-color-picker.css" />
+  <script type="text/javascript" src="./js.lib/jquery/colorpicker/jquery.simple-color-picker.js"></script>
+  <script type="text/javascript" src="./js.lib/jquery/colorpicker/js/colorpicker.js"></script>
+  <link rel="stylesheet" type="text/css" href="./js.lib/jquery/colorpicker/css/colorpicker.css" />
+  <script type="text/javascript" src="./js.lib/jquery/ah-placeholder/jquery.ah-placeholder.js"></script>
+  <script type="text/javascript" src="js.lib/OSGeo/proj4js-combined.js"></script>
+
+  <script type="text/javascript" src="js.lib/exif.js"></script>
+  <script type="text/javascript" src="js.lib/geotiff.browserify.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="js.lib/leaflet-plugin/leaflet.label/leaflet.label-gsi.css" />
+  <script type="text/javascript" src="js.lib/leaflet-plugin/leaflet.label/leaflet.label.js"></script>
+  <link rel="stylesheet" type="text/css" href="js.lib/leaflet-plugin/Control.MiniMap/Control.MiniMap-gsi.css" />
+  <script type="text/javascript" src="js.lib/leaflet-plugin/Control.MiniMap/Control.MiniMap-gsi.js"></script>
+  <script type="text/javascript" src="js.lib/leaflet-plugin/TileLayer.GeoJSON/TileLayer.GeoJSON-gsi.js"></script>
+  <script type="text/javascript" src="js.lib/leaflet-plugin/leaflet-omnivore/leaflet-omnivore.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="js.lib/leaflet-plugin/leaflet.draw/leaflet.draw-gsi.css" />
+  <script type="text/javascript" src="js.lib/leaflet-plugin/leaflet.draw/leaflet.draw-gsi.js"></script>
+  <script type="text/javascript" src="js.lib/leaflet-plugin/Leaflet.Sync/L.Map.Sync.js"></script>
+  <script type="text/javascript" src="js.lib/leaflet-plugin/Leaflet.Geodesic/Leaflet.Geodesic.js"></script>
+
+  <script type="text/javascript" src="js.lib/leaflet-plugin/leaflet-hash/leaflet-hash-gsi.js"></script>
+  <script type="text/javascript" src="js.lib/html2canvas.js"></script>
+  <script type="text/javascript" src="js.lib/encoding/encoding.js"></script>
+  <script type="text/javascript" src="js.lib/NoSleep/NoSleep.min.js"></script>
+  <link rel="stylesheet" href="js.lib/leaflet-plugin/Leaflet.zoomslider-0.6.1/L.Control.Zoomslider.css" type="text/css" />
+  <script type="text/javascript" src="js.lib/leaflet-plugin/Leaflet.zoomslider-0.6.1/L.Control.Zoomslider.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="./css/gsimaps.css" />
+  <script type="text/javascript" src="js/setting.js"></script>
+  <script type="text/javascript" src="js/tooltip.js"></script>
+  <script type="text/javascript" src="js/gsimaps.js"></script>
+
+  <script type="text/javascript" src="js/photo.js"></script>
+
+  <script type="text/javascript" src="js/mobile.js"></script>
+
+  <script type="text/javascript" src="js/muni.js"></script>
+  <script type="text/javascript" src="js/jiki.js"></script>
+
+  <script type="text/javascript">
+    GSI.GLOBALS.isCreditShow = true;
+  </script>
+  
+  <noscript>
+    <div class="noscript">
+      JavaScriptを有効にしてご覧ください。
+    </div>
+  </noscript>
+</head>
+
+<body>
+  <div id="header" class="logo_s mobile">
+
+    <div class="logoarea">
+            <!--★変更-->
+            <a style="text-decoration:none;" href="">
+              <img class="logoimage" src="image/m_logo.jpg">
+            </a>
+    </div>
+
+    <div class="magnifyingglass">
+      <img name="magnifyimage" id="magnifyimage" src="./image/system/search.png" />
+    </div>
+
+    <form name="search_f" id="search_f" autocomplete="off">
+      <input name="query" id="query" value="" type="search" placeholder="例：宝満山 / 筑紫野市二日市 / 35度0分0秒 135度0分0秒 / 35.00 135.00 / 54SUE83694920" />
+    </form>
+
+    <div class="gsi-header-tools"></div>
+  </div>
+
+  <div id="topmessage"></div>
+  <div id="map"></div>
+  <div class="leaflet-control-flatpanel leaflet-control" id="zoomGuidePanel" style="display: none;z-index: 2;position: absolute;right: 10px;bottom: 35px;">
+    <div class="leaflet-control-crpanel" id="zoomGuideMinMax" style="border-radius: 5px 5px 0px 0px;">この情報はズームmin～maxで表示されます。</div>
+    <div class="leaflet-control-crpanel">なお、整備範囲が全国であるとは限りません。</div><div class="leaflet-control-crpanel" style="border-radius: 0px 0px 5px 5px;">
+      <input class="" type="checkbox" id="zoomGuideCheckbox">
+      <label class="" for="zoomGuideCheckbox">以後、この案内を表示しない</label>
+    </div>
+  </div>
+
+</body>
+
+</html>
