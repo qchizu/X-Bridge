@@ -11,7 +11,7 @@
         {
           "type": "LayerGroup",
           "title": "X-Bridge",
-          "iconUrl": "",
+          "iconUrl": "https://maps.qchizu.xyz/image/layers_txt/folder-gaibu.png",
           "toggleall": false,
           "id": "",
           "entries": [
@@ -78,7 +78,7 @@
             {
               "type": "LayerGroup",
               "title": "2018年度 全国橋梁マップ【延長5m以上のみ表示】",
-              "iconUrl": "https://maps.qchizu.xyz/image/layers_txt/folder-q.png",
+              "iconUrl": "https://maps.qchizu.xyz/favicon.ico",
               "toggleall": false,
               "id": "test_bridge_hokoku",
               "html":"ここに説明書きが入ります",
