@@ -13,7 +13,7 @@
           "iconUrl": "https://maps.qchizu.xyz/image/layers_txt/folder-gaibu.png",
           "toggleall": false,
           "id": "",
-          "html":"ここに説明書きが入ります",
+          "html":"水害時流失リスクの高い橋梁の可視化を試みるワークショップ「X-Bridge（クロスブリッジ」で作成したデータを閲覧できます。また、ご自身でも手順に沿って簡単にリスクの高い橋を報告することができます。説明資料はこちら（「こちら」をリンクにし、跳ぶ先はSpeakerDeckに掲示したワークショップ資料）。",
           "entries": [
             {
               "type": "LayerGroup",
@@ -22,7 +22,7 @@
               "toggleall": false,
               "id": "test_bridge_kekka",
               "attribution": "X-Bridge",
-              "html":"ここに説明書きが入ります",
+              "html":"水害時流失リスクの高い橋梁の可視化を試みるワークショップ「X-Bridge（クロスブリッジ」で作成したデータを閲覧できます。また、ご自身でも手順に沿って簡単にリスクの高い橋を報告することができます。説明資料はこちら（「こちら」をリンクにし、跳ぶ先はSpeakerDeckに掲示したワークショップ資料）。",
               "entries": [
                 {
                   "type": "Layer",
